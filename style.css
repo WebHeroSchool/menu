@@ -1,0 +1,29 @@
+.heading__title {
+    color: lime;
+}
+
+@media only screen and (min-width : 1024px) {
+	.heading__title {
+    color: red;
+    font-size: 40px;
+	}
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1024px){
+	.heading__title {
+    color: purple;
+    font-size: 30px;
+	}
+}
+
+@media only screen and (min-width : 365px) and (max-width : 768px){
+	.heading__title {
+    color: blue;
+    font-size: 20px;
+	}
+}
+
+
+
+
+
